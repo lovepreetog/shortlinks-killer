@@ -1,5 +1,5 @@
 {
-  "name": "ShortLink-Killer",
+  "name": "ShortLinks-Killer",
   "version": "1.0.0",
   "description": "URL unshortener with security checks - Python + Node.js | coded by: @beasteren on telegram",
   "main": "main.js",
