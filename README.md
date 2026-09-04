@@ -66,7 +66,7 @@ ShortLink-Killer is a powerful URL unshortening tool designed to bypass the majo
 ### Quick Setup
 
 ```bash
-git clone https://github.com/yourusername/ShortLink-Killer.git
+git clone https://github.com/yourusername/ShortLinks-Killer.git
 cd ShortLinks-Killer
 pip install -r requirements.txt
 python start.py
