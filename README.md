@@ -24,7 +24,7 @@ ShortLink-Killer is a powerful URL unshortening tool designed to bypass the majo
 
 ### URL Unshortening
 - Expands shortened URLs from over 60 services
-- Follows HTTP redirect chains automatically
+- Follows HTTPS/HTTP redirect chains automatically
 - Handles nested shortlinks within shortlinks
 - Recovers original destination URLs
 
