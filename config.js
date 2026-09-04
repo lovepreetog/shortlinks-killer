@@ -1,5 +1,3 @@
-// FILE: config.js
-
 const SHORTENERS = {
     'bit.ly': 'Bitly',
     'tinyurl.com': 'TinyURL',
