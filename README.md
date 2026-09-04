@@ -1,55 +1,72 @@
+[![Python Version](https://img.shields.io/badge/python-3.6+-blue.svg)](https://python.org)
+[![Node.js Version](https://img.shields.io/badge/node-14+-green.svg)](https://nodejs.org)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Telegram](https://img.shields.io/badge/Telegram-@beasteren-blue)](https://t.me/beasteren)
 
----
+# ShortLink-Killer
 
-License
+URL Unshortener with Advanced Security Checks and Ad Bypass Capabilities
 
-This project is licensed under the MIT License.
-
-MIT License
-
-Copyright (c) 2024
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
----
-
-Connect
-
+Python Version: 3.6+
+Node.js Version: 14+
+License: MIT
 Telegram: @beasteren
-GitHub Issues: Report a Problem
 
 ---
 
-Acknowledgments
+## Overview
 
-Built for developers who want to save time manually expanding shortlinks
-Thanks to the open-source community
-Inspired by the countless times we have all needed to bypass ad walls
+ShortLink-Killer is a powerful URL unshortening tool designed to bypass the majority of shortlink services, ad walls, and paste services. It combines Node.js for intelligent pattern matching and DOM analysis with Python for robust HTTP handling and security verification. The tool provides comprehensive security analysis including SSL validation, domain age checking, and threat detection for every expanded URL.
 
 ---
 
-Support the Project
+## Features
 
-If this tool saves you time or makes your work easier:
+### URL Unshortening
+- Expands shortened URLs from over 60 services
+- Follows HTTP redirect chains automatically
+- Handles nested shortlinks within shortlinks
+- Recovers original destination URLs
 
-Star the repository on GitHub
-Fork the repository and share it
-Report issues and suggest features
-Share it with your team and colleagues
-Contribute code or documentation
+### Ad Bypass System
+- Bypasses 40+ ad shortener services including Linkvertise, AdFly, Shorte.st, and more
+- Smart pattern matching for JavaScript redirects
+- DOM button detection for Continue, Skip, Verify, and Next buttons
+- Extracts hidden destination URLs from obfuscated code
+
+### Security Analysis
+- SSL certificate validation and expiry checking
+- Domain WHOIS lookup with creation date and age analysis
+- Risk level classification (SAFE, LOW_RISK, MEDIUM_RISK, HIGH_RISK)
+- Suspicious keyword detection for phishing attempts
+- Domain age warnings for newly created domains
+
+### Paste Service Extraction
+- Extracts content from over 50 paste services
+- Supports Pastebin, Rentry, Justpaste.it, ControlC, Telegraph, and more
+- Auto-detects and displays content preview
+- Handles various paste formats and structures
+
+### Domain Intelligence
+- Retrieves domain creation date
+- Calculates domain age in years and days
+- Shows SSL issuer information
+- Displays SSL certificate expiry status
+
+---
+
+## Installation
+
+### Prerequisites
+
+- Node.js v14 or higher
+- Python 3.6 or higher
+- pip (Python package manager)
+
+### Quick Setup
+
+```bash
+git clone https://github.com/yourusername/ShortLink-Killer.git
+cd ShortLink-Killer
+pip install -r requirements.txt
+python start.py
