@@ -1,0 +1,14 @@
+{
+  "name": "ShortLink-Killer",
+  "version": "1.0.0",
+  "description": "URL unshortener with security checks - Python + Node.js | coded by: @beasteren on telegram",
+  "main": "main.js",
+  "scripts": {
+    "start": "python start.py"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
