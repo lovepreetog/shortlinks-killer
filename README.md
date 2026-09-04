@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Telegram](https://img.shields.io/badge/Telegram-@beasteren-blue)](https://t.me/beasteren)
 
-# ShortLink-Killer
+# ShortLinks-Killer
 
 URL Unshortener with Advanced Security Checks and Ad Bypass Capabilities
 
@@ -67,6 +67,6 @@ ShortLink-Killer is a powerful URL unshortening tool designed to bypass the majo
 
 ```bash
 git clone https://github.com/yourusername/ShortLink-Killer.git
-cd ShortLink-Killer
+cd ShortLinks-Killer
 pip install -r requirements.txt
 python start.py
